@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Gurparam Singh Naina</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Yusuf Özlü - ozluy - Front-end Developer">
+    <meta name="keywords" content="HTML, CSS, JavaScript, AngularJS, ReactJS, NodeJS, Front-end Developer, Full Stack Developer, Single Page Applications">
+    <meta name="author" content="Gurparam Singh">
+    <meta http-equiv="Cache-control" content="public">
+    <link href="assets/css/bundle.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="shortcut-icon" href="favicon.ico">
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="ozluy">Certified Security Professional</h1>
+      <button id="hamburger_menu" onclick="menuOpener();" class="hamburger"><span></span><span></span><span></span><span></span></button>
+    </header>
+    <aside id="left_menu">
+      <div class="row">
+        <div class="avatar-shell"><img width="160" height="160" src="./assets/img/ozluy.jpg" alt="Yusuf Özlü Image" class="avatar"></div>
+      </div>
+      <div class="row">
+        <ul class="about-group">
+              <li class="about-item">
+                <div class="title"><i class="fa fa-"></i>Gurparam Naina</div>
+              </li>
+              <li class="about-item">
+                <div class="title"><i class="fa fa-envelope"></i>Email</div>
+                <div class="sub">engineergurparam@gmail.com</div>
+              </li>
+              <li class="about-item">
+                <div class="title"><i class="fa fa-phone"></i>Phone</div>
+                <div class="sub">562 388 8580</div>
+              </li>
+<!--
+              <li class="about-item">
+                <div class="title"><i class="fa fa-birthday-cake"></i>Residence</div>
+                <div class="sub">Bay Area, California</div>
+              </li>
+-->
+              <li class="about-item">
+                <div class="title"><i class="fa fa-map-marker"></i>Address</div>
+                <div class="sub">California</div>
+              </li>
+              <li class="about-item">
+                <div class="title"><i class="fa fa-language"></i>Language</div>
+                <div class="sub">Punjabi (Native)</div>
+                <div class="sub">English (Advance)</div>
+                <div class="sub">Hindi (Basic)</div>
+                <div class="sub">Spanish (Beginner)</div>
+              </li>
+              <li class="about-item">
+                <div class="title"><i class="fa fa-star"></i>Specialities</div>
+                <div class="sub">Securing Network, </div>
+                <div class="sub">SIEM Logging, Vulnerability Assesment, </div>
+                <div class="sub">Incidence response, Digital Forensics</div>
+                <div class="sub">Threat Hunting, Scaning</div>
+              </li>
+        </ul>
+      </div>
+      <div class="row">
+        <ul class="accounts">
+              <li><a href="https://github.com/ozluy" target="_blank" class="fa fa-github"></a></li>
+              <li><a href="https://linkedin.com/in/ozluy" target="_blank" class="fa fa-linkedin"></a></li>
+              <li><a href="mailto:ozluyusuf@gmail.com" target="_self" class="fa fa-envelope"></a></li>
+              <li><a href="https://medium.com/@ozluy" target="_blank" class="fa fa-medium"></a></li>
+              <li><a href="https://codeschool.com/users/ozluy" target="_blank" class="fa fa-code"></a></li>
+              <li><a href="https://www.xing.com/profile/Yusuf_Ozlu" target="_blank" class="fa fa-xing"></a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="qr-shell"><img width="100" height="100" src="./assets/img/qr.png" alt="QR Vcard"></div>
+      </div>
+      <div class="row">
+        <div class="qr-shell"><img width="100" height="100" src="./assets/img/ccnp.jpg" alt="QR Vcard"></div>
+      </div>
+     <div class="row">
+        <div class="qr-shell"><img width="100" height="100" src="./assets/img/mcsa.jpg" alt="QR Vcard"></div>
+      </div>
+      <div class="row">
+        <div class="printer">
+          <button onclick="window.print()" class="print">Print page</button>
+        </div>
+      </div>
+    </aside>
+    <main id="main">
+      <div class="container summary">
+        <div class="component">
+                <div class="component-head">
+                  <h2 class="title"><i class="fa fa-user"></i>Summary</h2>
+                </div>
+          <div class="component-body">
+                  <div class="summary-item">
+                    <div class="title">About Me</div>
+                    <div class="sub">A Certified CEH, CCNA, CCNP, MCSA. I have been working in Network Security with tools like Splunk, Qradar (SIEM), Forcepoint DLP etc. for incident management, security monitoring, threat intelligence and Malware analysis. Rule creation, use cases, tool administration provides a technical escalation point during Security Incidents, determining extent of threat and business impacts in partnership with applicable business or IT personnel as needed, then advising and performing the most suitable course of action to contain and remediate the incident. Provides further support and input to the monitoring team during high-priority incidents. Drive continuous improvement process to reduce false positives by identifying opportunities for content tuning.</div>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="component">
+                <div class="component-head">
+                  <h2 class="title"><i class="fa fa-briefcase"></i>Work Experience</h2>
+                </div>
+          <div class="component-body">
+                  <div class="experience-item">
+                    <div class="title">Network Security Engineer, Toshiba America</div>
+                    <div class="sub">March 2018 - present</div>
+                    <div class="sub">
+                        •	Symantec and Sophos Endpoint management, Patch Management, IDS log Analysis Monitoring, SIEM log Analysis Monitoring, DLP log analysis monitoring, Vulnerability Assessment ,Symantec Sophos Encryption and Sophos web proxy
+                        •	Have hands on experience on Symantec and Sophos endpoint protection management
+                        •	Performing vulnerability assessment for Public and Internal Servers, Monitoring SIEM, IDS, DLP and AV logs, Security Incident Management.
+                      </div>
+                  </div>
+                  <div class="experience-item">
+                    <div class="title">IT Security Engineer, Fluidigm</div>
+                    <div class="sub">July 2018- Dec 2019</div>
+                    <div class="sub">
+                        •	Making rules and policy to block and allow certain traffic across Firewall to maintain security.
+                        •	Security monitoring using SIEM tools (McAfee, Splunk and QRadar).Configuring VPN for client machines.
+                        •	Analyzing Traffic based on application and monitoring user activity through firewall.
+                        •	Incident management, Alerting and reporting. Reporting incidents with agreed SLA. Incident response and Security event triage.
+                        •	Working security solutions like Symantec Antivirus, Anti-malware, Firewall Internal and External, IDS, IPS.
+                      </div>
+                  </div>
+                  <div class="experience-item">
+                    <div class="title">NOC Engineer, Cameo Global</div>
+                    <div class="sub">May 2018- July 2018</div>
+                    <div class="sub">
+                        •	Experienced of working in Security Operations Center (SOC) team responsible for providing Managed Security Services.
+                        •	Forensic analysis of reported security incidents.
+                        •	Conducting POC for different customers. 
+                        •	Analyze customized reports. Worked on different attack/threat analysis techniques/pattern for detected vulnerability.
+                        •	Contributed in creation of new correlation reports/rules and the need to detect new security threats.
+                        •	Working on Data Source integration with McAfee ESM SIEM.
+                        •	Reports, Dashboard, Alarm creation , Content Development.
+                        •	Device management.
+                        •	Creating initial reports for security incidents.
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="component">
+                <div class="component-head">
+                  <h2 class="title"><i class="fa fa-graduation-cap"></i>Education</h2>
+                </div>
+          <div class="component-body">
+                  <div class="education-item">
+                    <div class="title">Bachelor of Computer Science</div>
+                    <div class="sub">Punjabi University</div>
+                    <div class="sub">3.50/4 GPA</div>
+<!--                    <div class="sub"></div>-->
+                  </div>
+                  <div class="education-item">
+                    <div class="title">GED</div>
+                    <div class="sub">RVHS, Yuba City</div>
+                    <div class="sub">3.25/4 GPA</div>
+<!--                    <div class="sub">English Taught, Erasmus</div>-->
+                  </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="component">
+                <div class="component-head">
+                  <h2 class="title"><i class="fa fa-bullhorn"></i>Skills &amp; Competences</h2>
+                </div>
+          <div class="component-body">
+                  <div class="skill-item">
+                    <div class="title">Log Analysis</div><span class="sub">Palo alto, ASA, PIX and Check Point firewall, Qradar SIEM and RSA, Symantec DLP, Symantec Endpoint ,   Kaspersky Endpoint security ,Intrusion Detection System</span>
+                  </div>
+                  <div class="skill-item">
+                    <div class="title">Routing</div><span class="sub">BGP, OSPF, EIGRP, MPLS and GRE tunnels for VPN, Default routing, stacking </span>
+                  </div>
+                  <div class="skill-item">
+                    <div class="title">OS</div><span class="sub">Kali linux, MAC, Win</span>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <div onclick="menuOpener();" class="blackout"></div>
+    </main>
+    <footer id="footer">
+      <div class="twin"><span class="developer"><i class="fa fa-code"></i> by <a href="https://github.com/ozluy">Gurparam Singh Naina</a><span class="hidden-love"> with <i class="fa fa-heart"></i></span></span></div>
+      <div class="twin">All rights reserved <a href="http://github.com/ozluy/resume-web" target="_blank">Gurparam Singh</a>.
+      </div>
+    </footer>
+    <script src="assets/js/bundle.min.js"></script>
+  </body>
+</html>

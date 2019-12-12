@@ -1,0 +1,55 @@
+@import 'globals';
+@import 'saz';
+
+@media print{
+  body{
+    width: 750px !important;
+    height: 100%;
+    background-color: $color_white;
+    background-image: none;
+  }
+  header{
+    display: none;;
+  }
+  footer{
+    display: none;
+  }
+  .qr-shell{
+    img{
+      @include boxShadow(none);
+    }
+  }
+  aside{
+    overflow: hidden;
+    top:0 !important;
+    background-color: $color_white;
+    visibility: visible !important;
+    position: absolute !important;
+    opacity: 1 !important;
+    z-index: auto !important;
+    height: auto !important;
+    @include transition(none !important);
+    .avatar-shell{
+      border: none;
+      @include boxShadow(none);
+      @include borderRadius(50%);
+      overflow: hidden !important;
+      .avatar{
+        @include borderRadius(50%);
+      }
+    }
+  }
+  main{
+    margin-left: 0 !important;
+    float: right;
+    .container{
+      float: none;
+      &.summary{
+        display: none;
+      }
+    }
+  }
+  .printer{
+    display: none;
+  }
+}
